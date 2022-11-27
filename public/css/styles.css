@@ -1,0 +1,151 @@
+html, body{
+    height: 100%;
+}
+
+
+
+
+
+/* Nav Bar */
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: large;
+}
+
+nav {
+    background-color: #EAEAEA;
+    padding-top: 14px; 
+}
+#hamburger-dropdown{
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+button > i {
+    font-size: 175%;
+}
+.btn-group > button{
+    padding: 0;
+    border: none;
+}
+.dropdown-item-name{
+    text-align: center !important;
+}
+
+
+
+
+
+/* Body */
+.greeting{
+    padding-top: 12px;
+    padding-bottom: 6%;
+}
+
+/* Posts */
+.post {
+    line-height: 50px;
+}
+.oddPost{
+    background-color: #EEEEEE;
+}
+hr{
+    margin-top: 0;
+}
+.post h4{
+    padding-top: 12px;
+}
+.posts p {
+    margin-bottom: 0 !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+/* Post Full Page */
+.post-full-page{
+    padding-top: 7%;
+}
+.post-full-page-title{
+    padding-bottom: 1%;
+}
+
+
+
+
+
+
+/* Compose session */
+input[type = text], textarea{
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+button[type = submit]{
+    width: 100%;
+    border-radius: 2px;
+    background-color: #ADE792;
+    margin-top: 12px;
+    line-height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+button[type = submit]:hover{
+    box-shadow: inset -6px -6px 12px #9fd586,
+                inset 6px 6px 12px #bbf99e;
+}
+
+
+/* About Page */
+.avatar-div {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.avatar-div img {
+    border-radius: 50%;
+}
+.about-desc{
+
+}
+.box{
+    vertical-align: center;
+    text-align: center;
+}
+.full-height {
+    width: 200px;
+        height: 250px;
+        position: absolute; /*Can also be `fixed`*/
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+        max-width: 100%;
+        max-height: 100%;
+        overflow: auto;
+}
+.journal-home{
+    font-size: 800%;
+    padding-top: 10%;
+}
+.about-home{
+    font-size: 800%;
+    padding-top: 10%;
+}
+
+
+/* Footer */
+footer{
+    padding-top: 16px;
+    text-align: center;
+    background-color: #EAEAEA;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
